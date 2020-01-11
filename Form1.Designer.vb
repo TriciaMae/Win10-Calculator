@@ -89,9 +89,9 @@ Partial Class Form1
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.MenuStrip3 = New System.Windows.Forms.MenuStrip()
-        Me.XToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CloseBtn = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MaxBtn = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MinBtn = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -1216,7 +1216,7 @@ Partial Class Form1
         Me.MenuStrip3.BackColor = System.Drawing.Color.WhiteSmoke
         Me.MenuStrip3.BackgroundImage = Global.SciCal.My.Resources.Resources.control_bg
         Me.MenuStrip3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.MenuStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XToolStripMenuItem, Me.ToolStripMenuItem1, Me.ToolStripMenuItem2})
+        Me.MenuStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CloseBtn, Me.MaxBtn, Me.MinBtn})
         Me.MenuStrip3.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip3.Name = "MenuStrip3"
         Me.MenuStrip3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -1224,26 +1224,26 @@ Partial Class Form1
         Me.MenuStrip3.TabIndex = 1
         Me.MenuStrip3.Text = "MenuStrip3"
         '
-        'XToolStripMenuItem
+        'CloseBtn
         '
-        Me.XToolStripMenuItem.Font = New System.Drawing.Font("Microsoft PhagsPa", 9.0!)
-        Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
-        Me.XToolStripMenuItem.Size = New System.Drawing.Size(27, 20)
-        Me.XToolStripMenuItem.Text = "X"
+        Me.CloseBtn.Font = New System.Drawing.Font("Microsoft PhagsPa", 9.0!)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(27, 20)
+        Me.CloseBtn.Text = "X"
         '
-        'ToolStripMenuItem1
+        'MaxBtn
         '
-        Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Microsoft PhagsPa", 9.0!)
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(30, 20)
-        Me.ToolStripMenuItem1.Text = "□"
+        Me.MaxBtn.Font = New System.Drawing.Font("Microsoft PhagsPa", 9.0!)
+        Me.MaxBtn.Name = "MaxBtn"
+        Me.MaxBtn.Size = New System.Drawing.Size(30, 20)
+        Me.MaxBtn.Text = "□"
         '
-        'ToolStripMenuItem2
+        'MinBtn
         '
-        Me.ToolStripMenuItem2.Font = New System.Drawing.Font("Microsoft PhagsPa", 9.0!)
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(28, 20)
-        Me.ToolStripMenuItem2.Text = "—"
+        Me.MinBtn.Font = New System.Drawing.Font("Microsoft PhagsPa", 9.0!)
+        Me.MinBtn.Name = "MinBtn"
+        Me.MinBtn.Size = New System.Drawing.Size(28, 20)
+        Me.MinBtn.Text = "—"
         '
         'Label2
         '
@@ -1316,9 +1316,9 @@ Partial Class Form1
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents CalculatorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MenuStrip3 As MenuStrip
-    Friend WithEvents XToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents CloseBtn As ToolStripMenuItem
+    Friend WithEvents MaxBtn As ToolStripMenuItem
+    Friend WithEvents MinBtn As ToolStripMenuItem
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label

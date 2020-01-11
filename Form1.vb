@@ -3,7 +3,15 @@
 
     End Sub
 
-    Private Sub XToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles XToolStripMenuItem.Click
+    Private Sub XToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
         Me.Close()
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles MaxBtn.Click
+        Me.WindowState = FormWindowState.Maximized
+    End Sub
+
+    Private Sub MinBtn_Click(sender As Object, e As EventArgs) Handles MinBtn.Click
+        Me.WindowState = FormWindowState.Minimized
     End Sub
 End Class
