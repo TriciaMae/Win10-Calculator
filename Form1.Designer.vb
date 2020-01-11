@@ -242,9 +242,9 @@ Partial Class Form1
         Me.Label14.Image = Global.SciCal.My.Resources.Resources.c_alc_bg3
         Me.Label14.Location = New System.Drawing.Point(491, 88)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(104, 79)
+        Me.Label14.Size = New System.Drawing.Size(69, 79)
         Me.Label14.TabIndex = 59
-        Me.Label14.Text = "17"
+        Me.Label14.Text = "0"
         '
         'Label13
         '
