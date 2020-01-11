@@ -27,7 +27,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Result = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -124,7 +124,7 @@ Partial Class Form1
         Me.SplitContainer1.Panel1.Controls.Add(Me.Label1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.PictureBox3)
         Me.SplitContainer1.Panel1.Controls.Add(Me.PictureBox1)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Label14)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Result)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Label13)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Label12)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Label11)
@@ -234,17 +234,17 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'Label14
+        'Result
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft PhagsPa", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label14.Image = Global.SciCal.My.Resources.Resources.c_alc_bg3
-        Me.Label14.Location = New System.Drawing.Point(491, 88)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(69, 79)
-        Me.Label14.TabIndex = 59
-        Me.Label14.Text = "0"
+        Me.Result.BackColor = System.Drawing.Color.Gainsboro
+        Me.Result.Font = New System.Drawing.Font("Microsoft PhagsPa", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Result.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Result.Location = New System.Drawing.Point(14, 88)
+        Me.Result.Name = "Result"
+        Me.Result.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Result.Size = New System.Drawing.Size(546, 79)
+        Me.Result.TabIndex = 59
+        Me.Result.Text = "0"
         '
         'Label13
         '
@@ -1379,7 +1379,7 @@ Partial Class Form1
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents Label14 As Label
+    Friend WithEvents Result As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents PictureBox3 As PictureBox

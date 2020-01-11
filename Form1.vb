@@ -3,4 +3,7 @@
 
     End Sub
 
+    Private Sub XToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles XToolStripMenuItem.Click
+        Me.Close()
+    End Sub
 End Class
