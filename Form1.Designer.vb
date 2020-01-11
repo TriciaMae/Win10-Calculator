@@ -41,17 +41,17 @@ Partial Class Form1
         Me.Button44 = New System.Windows.Forms.Button()
         Me.Button45 = New System.Windows.Forms.Button()
         Me.Button38 = New System.Windows.Forms.Button()
-        Me.Button39 = New System.Windows.Forms.Button()
-        Me.Button40 = New System.Windows.Forms.Button()
-        Me.Button41 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Button37 = New System.Windows.Forms.Button()
+        Me.Btn9 = New System.Windows.Forms.Button()
+        Me.Btn6 = New System.Windows.Forms.Button()
+        Me.Btn3 = New System.Windows.Forms.Button()
+        Me.CBtn = New System.Windows.Forms.Button()
+        Me.Btn8 = New System.Windows.Forms.Button()
+        Me.Btn5 = New System.Windows.Forms.Button()
+        Me.Btn2 = New System.Windows.Forms.Button()
         Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
+        Me.Btn7 = New System.Windows.Forms.Button()
+        Me.Btn4 = New System.Windows.Forms.Button()
+        Me.Btn1 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
         Me.Button27 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
@@ -74,7 +74,7 @@ Partial Class Form1
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Btn0 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -138,17 +138,17 @@ Partial Class Form1
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button44)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button45)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button38)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button39)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button40)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button41)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button34)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button35)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button36)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button37)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn9)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn6)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn3)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.CBtn)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn8)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn5)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn2)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button30)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button31)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button32)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button33)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn7)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn4)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button26)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button27)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button28)
@@ -171,7 +171,7 @@ Partial Class Form1
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button10)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button9)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button8)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button7)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.Btn0)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button6)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button5)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Button4)
@@ -451,126 +451,126 @@ Partial Class Form1
         Me.Button38.Text = "2ⁿᵈ"
         Me.Button38.UseVisualStyleBackColor = False
         '
-        'Button39
+        'Btn9
         '
-        Me.Button39.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button39.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button39.FlatAppearance.BorderSize = 2
-        Me.Button39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button39.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button39.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button39.Location = New System.Drawing.Point(448, 383)
-        Me.Button39.Name = "Button39"
-        Me.Button39.Size = New System.Drawing.Size(63, 78)
-        Me.Button39.TabIndex = 44
-        Me.Button39.Text = "9"
-        Me.Button39.UseVisualStyleBackColor = False
+        Me.Btn9.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn9.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn9.FlatAppearance.BorderSize = 2
+        Me.Btn9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn9.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn9.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn9.Location = New System.Drawing.Point(448, 383)
+        Me.Btn9.Name = "Btn9"
+        Me.Btn9.Size = New System.Drawing.Size(63, 78)
+        Me.Btn9.TabIndex = 44
+        Me.Btn9.Text = "9"
+        Me.Btn9.UseVisualStyleBackColor = False
         '
-        'Button40
+        'Btn6
         '
-        Me.Button40.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button40.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button40.FlatAppearance.BorderSize = 2
-        Me.Button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button40.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button40.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button40.Location = New System.Drawing.Point(448, 463)
-        Me.Button40.Name = "Button40"
-        Me.Button40.Size = New System.Drawing.Size(63, 78)
-        Me.Button40.TabIndex = 43
-        Me.Button40.Text = "6"
-        Me.Button40.UseVisualStyleBackColor = False
+        Me.Btn6.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn6.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn6.FlatAppearance.BorderSize = 2
+        Me.Btn6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn6.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn6.Location = New System.Drawing.Point(448, 463)
+        Me.Btn6.Name = "Btn6"
+        Me.Btn6.Size = New System.Drawing.Size(63, 78)
+        Me.Btn6.TabIndex = 43
+        Me.Btn6.Text = "6"
+        Me.Btn6.UseVisualStyleBackColor = False
         '
-        'Button41
+        'Btn3
         '
-        Me.Button41.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button41.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button41.FlatAppearance.BorderSize = 2
-        Me.Button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button41.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button41.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button41.Location = New System.Drawing.Point(448, 542)
-        Me.Button41.Name = "Button41"
-        Me.Button41.Size = New System.Drawing.Size(63, 78)
-        Me.Button41.TabIndex = 42
-        Me.Button41.Text = "3"
-        Me.Button41.UseVisualStyleBackColor = False
+        Me.Btn3.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn3.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn3.FlatAppearance.BorderSize = 2
+        Me.Btn3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn3.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn3.Location = New System.Drawing.Point(448, 542)
+        Me.Btn3.Name = "Btn3"
+        Me.Btn3.Size = New System.Drawing.Size(63, 78)
+        Me.Btn3.TabIndex = 42
+        Me.Btn3.Text = "3"
+        Me.Btn3.UseVisualStyleBackColor = False
         '
-        'Button34
+        'CBtn
         '
-        Me.Button34.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Button34.BackgroundImage = CType(resources.GetObject("Button34.BackgroundImage"), System.Drawing.Image)
-        Me.Button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button34.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button34.FlatAppearance.BorderSize = 2
-        Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button34.Font = New System.Drawing.Font("Microsoft PhagsPa", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button34.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button34.Location = New System.Drawing.Point(384, 303)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(63, 78)
-        Me.Button34.TabIndex = 41
-        Me.Button34.Text = "C"
-        Me.Button34.UseVisualStyleBackColor = False
+        Me.CBtn.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.CBtn.BackgroundImage = CType(resources.GetObject("CBtn.BackgroundImage"), System.Drawing.Image)
+        Me.CBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CBtn.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.CBtn.FlatAppearance.BorderSize = 2
+        Me.CBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CBtn.Font = New System.Drawing.Font("Microsoft PhagsPa", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CBtn.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.CBtn.Location = New System.Drawing.Point(384, 303)
+        Me.CBtn.Name = "CBtn"
+        Me.CBtn.Size = New System.Drawing.Size(63, 78)
+        Me.CBtn.TabIndex = 41
+        Me.CBtn.Text = "C"
+        Me.CBtn.UseVisualStyleBackColor = False
         '
-        'Button35
+        'Btn8
         '
-        Me.Button35.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button35.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button35.FlatAppearance.BorderSize = 2
-        Me.Button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button35.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button35.Location = New System.Drawing.Point(384, 383)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(63, 78)
-        Me.Button35.TabIndex = 40
-        Me.Button35.Text = "8"
-        Me.Button35.UseVisualStyleBackColor = False
+        Me.Btn8.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn8.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn8.FlatAppearance.BorderSize = 2
+        Me.Btn8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn8.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn8.Location = New System.Drawing.Point(384, 383)
+        Me.Btn8.Name = "Btn8"
+        Me.Btn8.Size = New System.Drawing.Size(63, 78)
+        Me.Btn8.TabIndex = 40
+        Me.Btn8.Text = "8"
+        Me.Btn8.UseVisualStyleBackColor = False
         '
-        'Button36
+        'Btn5
         '
-        Me.Button36.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button36.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button36.FlatAppearance.BorderSize = 2
-        Me.Button36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button36.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button36.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button36.Location = New System.Drawing.Point(384, 463)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(63, 78)
-        Me.Button36.TabIndex = 39
-        Me.Button36.Text = "5"
-        Me.Button36.UseVisualStyleBackColor = False
+        Me.Btn5.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn5.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn5.FlatAppearance.BorderSize = 2
+        Me.Btn5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn5.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn5.Location = New System.Drawing.Point(384, 463)
+        Me.Btn5.Name = "Btn5"
+        Me.Btn5.Size = New System.Drawing.Size(63, 78)
+        Me.Btn5.TabIndex = 39
+        Me.Btn5.Text = "5"
+        Me.Btn5.UseVisualStyleBackColor = False
         '
-        'Button37
+        'Btn2
         '
-        Me.Button37.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button37.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button37.FlatAppearance.BorderSize = 2
-        Me.Button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button37.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button37.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button37.Location = New System.Drawing.Point(384, 542)
-        Me.Button37.Name = "Button37"
-        Me.Button37.Size = New System.Drawing.Size(63, 78)
-        Me.Button37.TabIndex = 38
-        Me.Button37.Text = "2"
-        Me.Button37.UseVisualStyleBackColor = False
+        Me.Btn2.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn2.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn2.FlatAppearance.BorderSize = 2
+        Me.Btn2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn2.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn2.Location = New System.Drawing.Point(384, 542)
+        Me.Btn2.Name = "Btn2"
+        Me.Btn2.Size = New System.Drawing.Size(63, 78)
+        Me.Btn2.TabIndex = 38
+        Me.Btn2.Text = "2"
+        Me.Btn2.UseVisualStyleBackColor = False
         '
         'Button30
         '
@@ -589,58 +589,58 @@ Partial Class Form1
         Me.Button30.Text = "CE"
         Me.Button30.UseVisualStyleBackColor = False
         '
-        'Button31
+        'Btn7
         '
-        Me.Button31.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button31.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button31.FlatAppearance.BorderSize = 2
-        Me.Button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button31.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button31.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button31.Location = New System.Drawing.Point(320, 383)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(63, 78)
-        Me.Button31.TabIndex = 36
-        Me.Button31.Text = "7"
-        Me.Button31.UseVisualStyleBackColor = False
+        Me.Btn7.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn7.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn7.FlatAppearance.BorderSize = 2
+        Me.Btn7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn7.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn7.Location = New System.Drawing.Point(320, 383)
+        Me.Btn7.Name = "Btn7"
+        Me.Btn7.Size = New System.Drawing.Size(63, 78)
+        Me.Btn7.TabIndex = 36
+        Me.Btn7.Text = "7"
+        Me.Btn7.UseVisualStyleBackColor = False
         '
-        'Button32
+        'Btn4
         '
-        Me.Button32.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button32.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button32.FlatAppearance.BorderSize = 2
-        Me.Button32.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button32.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button32.Location = New System.Drawing.Point(320, 463)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(63, 78)
-        Me.Button32.TabIndex = 35
-        Me.Button32.Text = "4"
-        Me.Button32.UseVisualStyleBackColor = False
+        Me.Btn4.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn4.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn4.FlatAppearance.BorderSize = 2
+        Me.Btn4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn4.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn4.Location = New System.Drawing.Point(320, 463)
+        Me.Btn4.Name = "Btn4"
+        Me.Btn4.Size = New System.Drawing.Size(63, 78)
+        Me.Btn4.TabIndex = 35
+        Me.Btn4.Text = "4"
+        Me.Btn4.UseVisualStyleBackColor = False
         '
-        'Button33
+        'Btn1
         '
-        Me.Button33.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button33.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button33.FlatAppearance.BorderSize = 2
-        Me.Button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button33.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button33.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button33.Location = New System.Drawing.Point(320, 542)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(63, 78)
-        Me.Button33.TabIndex = 34
-        Me.Button33.Text = "1"
-        Me.Button33.UseVisualStyleBackColor = False
+        Me.Btn1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn1.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn1.FlatAppearance.BorderSize = 2
+        Me.Btn1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn1.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn1.Location = New System.Drawing.Point(320, 542)
+        Me.Btn1.Name = "Btn1"
+        Me.Btn1.Size = New System.Drawing.Size(63, 78)
+        Me.Btn1.TabIndex = 34
+        Me.Btn1.Text = "1"
+        Me.Btn1.UseVisualStyleBackColor = False
         '
         'Button26
         '
@@ -1016,22 +1016,22 @@ Partial Class Form1
         Me.Button8.Text = "."
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'Button7
+        'Btn0
         '
-        Me.Button7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
-        Me.Button7.FlatAppearance.BorderSize = 2
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button7.Location = New System.Drawing.Point(384, 621)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(63, 78)
-        Me.Button7.TabIndex = 11
-        Me.Button7.Text = "0"
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.Btn0.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Btn0.FlatAppearance.BorderColor = System.Drawing.Color.LightGray
+        Me.Btn0.FlatAppearance.BorderSize = 2
+        Me.Btn0.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Btn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn0.Font = New System.Drawing.Font("Microsoft PhagsPa", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn0.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Btn0.Location = New System.Drawing.Point(384, 621)
+        Me.Btn0.Name = "Btn0"
+        Me.Btn0.Size = New System.Drawing.Size(63, 78)
+        Me.Btn0.TabIndex = 11
+        Me.Btn0.Text = "0"
+        Me.Btn0.UseVisualStyleBackColor = False
         '
         'Button6
         '
@@ -1328,7 +1328,7 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button8 As Button
-    Friend WithEvents Button7 As Button
+    Friend WithEvents Btn0 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button4 As Button
@@ -1343,17 +1343,17 @@ Partial Class Form1
     Friend WithEvents Button44 As Button
     Friend WithEvents Button45 As Button
     Friend WithEvents Button38 As Button
-    Friend WithEvents Button39 As Button
-    Friend WithEvents Button40 As Button
-    Friend WithEvents Button41 As Button
-    Friend WithEvents Button34 As Button
-    Friend WithEvents Button35 As Button
-    Friend WithEvents Button36 As Button
-    Friend WithEvents Button37 As Button
+    Friend WithEvents Btn9 As Button
+    Friend WithEvents Btn6 As Button
+    Friend WithEvents Btn3 As Button
+    Friend WithEvents CBtn As Button
+    Friend WithEvents Btn8 As Button
+    Friend WithEvents Btn5 As Button
+    Friend WithEvents Btn2 As Button
     Friend WithEvents Button30 As Button
-    Friend WithEvents Button31 As Button
-    Friend WithEvents Button32 As Button
-    Friend WithEvents Button33 As Button
+    Friend WithEvents Btn7 As Button
+    Friend WithEvents Btn4 As Button
+    Friend WithEvents Btn1 As Button
     Friend WithEvents Button26 As Button
     Friend WithEvents Button27 As Button
     Friend WithEvents Button28 As Button
