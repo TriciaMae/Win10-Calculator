@@ -1,0 +1,11 @@
+C:\Users\Tedbu\source\repos\SciCal\bin\Debug\SciCal.exe.config
+C:\Users\Tedbu\source\repos\SciCal\bin\Debug\SciCal.exe
+C:\Users\Tedbu\source\repos\SciCal\bin\Debug\SciCal.pdb
+C:\Users\Tedbu\source\repos\SciCal\bin\Debug\SciCal.xml
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.vbprojAssemblyReference.cache
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.Form1.resources
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.Resources.resources
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.vbproj.GenerateResource.cache
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.exe
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.xml
+C:\Users\Tedbu\source\repos\SciCal\obj\Debug\SciCal.pdb
